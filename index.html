@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/main.css" />
+  <title>Frontend Mentor | Rest Countries API with Color Theme Switcher Maste Challenge</title>
+</head>
+
+<body class="bg color">
+  <header>
+    <nav class="bg-skin">
+      <p>Where in the World ?</p>
+      <div class="light">
+        <img src="./images/sun.svg" alt="sun icon" />
+        <span>Light Mode</span>
+      </div>
+      <div class="dark">
+        <img src="./images/moon.svg" alt="moon icon" />
+        <span>Dark Mode</span>
+      </div>
+    </nav>
+    <div class="search-bar">
+      <input type="text" class="search bg-skin color" id="myInput" placeholder="Search for names.." autocomplete="off" />
+      <ul id="myUl" class="list-country bg-skin"></ul>
+      <div class="bg-skin color custom-select">
+        <select>
+          <option selected>All</option>
+          <option>Africa</option>
+          <option>Americas</option>
+          <option>Asia</option>
+          <option>Europe</option>
+          <option>Oceania</option>
+        </select>
+      </div>
+      <span></span>
+    </div>
+  </header>
+  <div class="con">
+    <section class="some-country"></section>
+    <div class="sp bg">
+      <button id="back-country" class="bg-skin color"><img src="./images/back.svg" alt="back icon" /><span>Back</span></button>
+      <button id="back-info" class="bg-skin color"><img src="./images/back.svg" alt="back icon" /><span>Back</span></button>
+      <section class="info-country"></section>
+      <section class="sp-info"></section>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a class="color" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a>Abdullah Alnoime</a>.
+  </div>
+  <script src="./script/main.js"></script>
+</body>
+
+</html>
